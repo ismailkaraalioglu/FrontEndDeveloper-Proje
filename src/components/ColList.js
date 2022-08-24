@@ -2,7 +2,7 @@ import React from "react";
 import { BsWindowSidebar } from "react-icons/bs";
 import { AiOutlinePlus } from "react-icons/ai";
 
-function ColList({ col, index }) {
+function ColList({ col }) {
   return (
     <div
       key={col.id}
